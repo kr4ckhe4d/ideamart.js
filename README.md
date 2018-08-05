@@ -1,6 +1,6 @@
 <!--
 #
-#Copyright 2018 Nipuna H Herath
+#Copyright (c) 2018 Nipuna H Herath
 #
 #Permission to use, copy, modify, and/or distribute this software 
 #for any purpose with or without fee is hereby granted, provided 

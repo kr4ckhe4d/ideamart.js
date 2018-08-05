@@ -7,22 +7,19 @@
       "node": true
     }
   },
-  "description": "A node SDK for ideamart SMS API.",
+  "description": "A lightweight Node.js wrapper for IdeaMart SMS API.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Nipuna H Herath",
+  "author": "Nipuna H Herath  <nipunaherath@hotmail.com>",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "nodemon": "^1.18.3"
+    "axios": "^0.18.0"
   },
-  "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb-base": "^13.0.0",
-    "eslint-plugin-import": "^2.13.0"
+  "devDependencies": {},
+  "directories": {
+    "example": "example",
+    "lib": "lib"
   }
 }

@@ -18,6 +18,7 @@
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
+    "ideamart-sms-sdk": "0.0.1",
     "nodemon": "^1.18.3"
   },
   "devDependencies": {

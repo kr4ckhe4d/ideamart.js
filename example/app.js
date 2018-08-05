@@ -11,8 +11,9 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const SMSReceiver = require('./lib/SMSReceiver');
-const SMSSender = require('./lib/SMSSender');
+const IdeMart = require('ideamart-sms-sdk');
+const SMSReceiver = IdeMart.SMSReceiver;
+const SMSSender = IdeMart.SMSSender;
 
 
 const SERVER_URL = 'http://localhost:7000/sms/send';

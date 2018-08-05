@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "eslintConfig": {
     "env": {
-        "browser": true,
-        "node": true
+      "browser": true,
+      "node": true
     }
   },
   "description": "A node SDK for ideamart SMS API.",
@@ -15,6 +15,7 @@
   "author": "Nipuna H Herath",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "nodemon": "^1.18.3"

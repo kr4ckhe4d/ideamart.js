@@ -1,6 +1,12 @@
 {
   "name": "ideamart-sms-sdk",
   "version": "1.0.0",
+  "eslintConfig": {
+    "env": {
+        "browser": true,
+        "node": true
+    }
+  },
   "description": "A node SDK for ideamart SMS API.",
   "main": "index.js",
   "scripts": {
@@ -12,5 +18,10 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "nodemon": "^1.18.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
   }
 }

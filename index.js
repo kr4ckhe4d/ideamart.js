@@ -11,7 +11,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const SMSReceiver = require('./lib/SMSReceiver');
-const RestClient = require('./lib/RestClient');
+const SMSSender = require('./lib/SMSSender');
+
 
 const SERVER_URL = 'http://localhost:7000/sms/send';
 const APP_ID = 'APP_000001';
@@ -29,8 +30,12 @@ app.post('/', (req, res) => {
 });
 
 app.post('/send', (req, res) => {
-  const newRequest = new RestClient.SendRequest(req.body, SERVER_URL);
-  newRequest.send();
+  const receiver = new SMSReceiver.SMS(req.body);
+  const address = receiver.getAddress();
+  const message = receiver.getMessage();
+
+  const sender = new SMSSender.SMS(SERVER_URL, APP_ID, APP_PASSWORD);
+  sender.send(message, address);
   res.status(200).send(req.body);
 });
 

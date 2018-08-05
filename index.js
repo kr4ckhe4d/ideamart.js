@@ -18,7 +18,6 @@ app.use(bodyParser.json());
 // Index route
 app.post('/', (req, res) => {
   const receiver = new SMSReceiver.SMS(req.body);
-
   console.log(receiver.getAddress());
   res.status(200).send(req.body);
 });

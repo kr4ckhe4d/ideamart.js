@@ -1,3 +1,13 @@
+/*
+ * File: SMSReceiver.js
+ * Ideamart : Sample Node.js SMS API
+ * File Created: Sunday, 5th August 2018 11:34:34 am
+ * Author: Nipuna H Herath (nipunaherath@hotmail.net)
+ * -----
+ * Licence: MIT License
+ * http://opensource.org/licenses/MIT
+ */
+
 var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');

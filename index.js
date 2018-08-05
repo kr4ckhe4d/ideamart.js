@@ -22,23 +22,27 @@ const APP_PASSWORD = 'password';
 const app = express();
 app.use(bodyParser.json());
 
+// Create new sender instance to send a SMS.
+const sender = new SMSSender.SMS(SERVER_URL, APP_ID, APP_PASSWORD);
+
 // Index route
 app.post('/', (req, res) => {
-  const receiver = new SMSReceiver.SMS(req.body);
-  console.log(receiver.getAddress());
   res.status(200).send(req.body);
 });
 
+// Sample route to test if the request response is working correctly.
 app.post('/send', (req, res) => {
-  const receiver = new SMSReceiver.SMS(req.body);
+  const receiver = new SMSReceiver.SMS(req.body); // Extract the request data from request body.
   const address = receiver.getAddress();
   const message = receiver.getMessage();
 
-  const sender = new SMSSender.SMS(SERVER_URL, APP_ID, APP_PASSWORD);
-  sender.send(message, address);
+  sender.sendSMS(message, address);
   res.status(200).send(req.body);
 });
 
+/**
+ * This function will create a Node server on port 8899
+ */
 function startServer() {
   const server = app.listen(8899, () => {
     const { port } = server.address();
@@ -46,4 +50,5 @@ function startServer() {
   });
 }
 
+// Start Node server
 startServer();

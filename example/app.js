@@ -11,7 +11,7 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const IdeaMart = require('ideamart-sms-sdk');
+const IdeaMart = require('ideamart-sdk');
 const SMSReceiver = IdeaMart.SMSReceiver;
 const SMSSender = IdeaMart.SMSSender;
 

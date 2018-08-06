@@ -1,6 +1,6 @@
 {
   "name": "ideamart-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight Node.js wrapper for IdeaMart IdeaPro SMS API.",
   "main": "index.js",
   "scripts": {

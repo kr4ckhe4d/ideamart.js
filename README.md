@@ -17,7 +17,7 @@
 #CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 #
 -->
-# ideamart-sdk  
+# ideamart-sms-sdk  
 ## A lightweight Node.js wrapper for IdeaMart IdeaPro SMS API.
 
 ![alt text][banner]
@@ -25,19 +25,19 @@
 # Installation
 In your command-line on Windows:    
 ```bash    
-    c:\> npm i ideamart-sdk --save
+    c:\> npm i ideamart-sms-sdk --save
 ```    
     
 In your terminal on Mac OS X/Linux:
 ```bash    
-    $npm i ideamart-sdk --save
+    $npm i ideamart-sms-sdk --save
 ```
 
 ## How to use
 In Node.js:
 ```js
 // Load full IdeaMart SMS SDK build
-const IdeaMart = require('ideamart-sdk');
+const IdeaMart = require('ideamart-sms-sdk');
 
 // Load SMSReceiver and SMSSender Modules separately
 const SMSReceiver = IdeaMart.SMSReceiver;

@@ -1,5 +1,5 @@
 {
-  "name": "ideamart-sdk-example",
+  "name": "ideamart-sms-sdk-example",
   "version": "1.0.0",
   "eslintConfig": {
     "env": {
@@ -18,7 +18,7 @@
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "ideamart-sdk": "^0.1.0",
+    "ideamart-sms-sdk": "^0.1.0",
     "nodemon": "^1.18.3"
   },
   "devDependencies": {

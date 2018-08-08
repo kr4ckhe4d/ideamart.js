@@ -1,7 +1,7 @@
 {
-  "name": "ideamart-sms-sdk",
-  "version": "0.1.3",
-  "description": "A lightweight Node.js wrapper for IdeaMart IdeaPro SMS API.",
+  "name": "ideamart-lbs-sdk",
+  "version": "0.1.0",
+  "description": "A lightweight Node.js wrapper for IdeaMart IdeaPro LBS API.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/kr4ckhe4d/ideamart.js/issues"
   },
-  "homepage": "https://github.com/kr4ckhe4d/ideamart.js/tree/ideamart-sms-sdk",
+  "homepage": "https://github.com/kr4ckhe4d/ideamart.js/tree/ideamart-lbs-sdk",
   "keywords": [
     "ideamart",
     "sms",

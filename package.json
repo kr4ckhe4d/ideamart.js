@@ -1,7 +1,7 @@
 {
-  "name": "ideamart-caas-sdk",
+  "name": "ideamart-ussd-sdk",
   "version": "0.1.0",
-  "description": "A lightweight Node.js wrapper for IdeaMart IdeaPro CAAS API.",
+  "description": "A lightweight Node.js wrapper for IdeaMart IdeaPro USSD API.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/kr4ckhe4d/ideamart.js/issues"
   },
-  "homepage": "https://github.com/kr4ckhe4d/ideamart.js/tree/ideamart-caas-sdk",
+  "homepage": "https://github.com/kr4ckhe4d/ideamart.js/tree/ideamart-ussd-sdk",
   "keywords": [
     "ideamart",
     "sms",

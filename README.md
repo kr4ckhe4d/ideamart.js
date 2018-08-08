@@ -17,27 +17,27 @@
 #CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 #
 -->
-# ideamart-caas-sdk (Deprecated. Use ideamart-sdk instead)  
-## A lightweight Node.js wrapper for IdeaMart IdeaPro CAAS API.
+# ideamart-ussd-sdk (Deprecated. Use ideamart-sdk instead)  
+## A lightweight Node.js wrapper for IdeaMart IdeaPro USSD API.
 
 ![alt text][banner]
 
 # Installation
 In your command-line on Windows:    
 ```bash    
-    c:\> npm i ideamart-caas-sdk --save
+    c:\> npm i ideamart-ussd-sdk --save
 ```    
     
 In your terminal on Mac OS X/Linux:
 ```bash    
-    $npm i ideamart-caas-sdk --save
+    $npm i ideamart-ussd-sdk --save
 ```
 
 ## How to use
 In Node.js:
 ```js
 // Load full IdeaMart SMS SDK build
-const IdeaMart = require('ideamart-sms-sdk');
+const IdeaMart = require('ideamart-ussd-sdk');
 
 // Load SMSReceiver and SMSSender Modules separately
 const SMSReceiver = IdeaMart.SMSReceiver;

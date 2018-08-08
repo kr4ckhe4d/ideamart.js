@@ -18,7 +18,7 @@
 #
 -->
 # ideamart-sdk  
-## A lightweight Node.js wrapper for IdeaMart IdeaPro SMS API.
+## A lightweight unified Node.js wrapper for IdeaMart IdeaPro APIs.
 
 ![alt text][banner]
 

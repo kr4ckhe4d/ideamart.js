@@ -17,20 +17,20 @@
 #CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 #
 -->
-# ideamart-lbs-sdk (Deprecated. Use ideamart-sdk instead)  
-## A lightweight Node.js wrapper for IdeaMart IdeaPro SMS API.
+# ideamart-caas-sdk (Deprecated. Use ideamart-sdk instead)  
+## A lightweight Node.js wrapper for IdeaMart IdeaPro CAAS API.
 
 ![alt text][banner]
 
 # Installation
 In your command-line on Windows:    
 ```bash    
-    c:\> npm i ideamart-lbs-sdk --save
+    c:\> npm i ideamart-caas-sdk --save
 ```    
     
 In your terminal on Mac OS X/Linux:
 ```bash    
-    $npm i ideamart-lbs-sdk --save
+    $npm i ideamart-caas-sdk --save
 ```
 
 ## How to use
